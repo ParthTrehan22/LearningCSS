@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    padding: 20px 0px 0px 0px;
+    position: sticky; 
+    top: 0;
+}
+ul{
+    list-style: inside;
+}
+li{
+    font-size: 4vh;
+    display: inline;  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.con{
+    background-color: aqua;
+    min-height: 3000px;
+    position: relative;
+    z-index: 1;
+}

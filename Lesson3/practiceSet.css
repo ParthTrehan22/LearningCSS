@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:black;
+    color: white;
+    margin: 30px;
+}
+a.headerAnchor{
+    color: white;
+}
+.content{
+    background-color: aqua;
+    color: white;
+    margin: 30px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}

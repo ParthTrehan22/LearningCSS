@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+.image img{
+    width: 4vw;
+    padding: 2vh;
+}
+ul{
+    padding: 2vw;
+}
+a{
+    text-decoration:none; 
+    color: white;
+}
+li{
+    display: inline;
+}
+.bg-image{
+    background-image: url("https://www.aljazeera.com/wp-content/uploads/2021/05/2021-05-29T211450Z_894872287_UP1EH5T1N0OMB_RTRMADP_3_SOCCER-CHAMPIONS-MCI-CHE-REPORT.jpg?w=770&resize=770%2C507");
+    min-height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+img{
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1{
+    background-color: lightskyblue;
+    min-height: 50vh;
+    width: 40vw;
+    /* float: left; */
+}
+.box2{
+    background-color: red;
+    min-height: 50vh;
+    width: 40vw;
+    /* float: right; */
+}
