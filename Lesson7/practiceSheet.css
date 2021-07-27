@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+}
+@media screen and (max-width:800px) {
+    body{
+        background-color: blue;
+    }    
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color: skyblue;
+    }    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: inline-flex;
+}
+ul li{
+    list-style: none;
+    padding: 20px 20px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 2vw;
+    padding: 2vh;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.bg-image{
+    background-color: aqua;
+    height: 40vh;
+    background-image: url("https://wallpaperaccess.com/full/1660887.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item1{
+    height: 20vh;
+    background-color: yellow;
+    margin: 6px;
+}
+.item2{
+    height: 20vh;
+    background-color: red;
+    margin: 6px;
+}
+.item3{
+    height: 20vh;
+    background-color: blue;
+    margin: 6px;
+}

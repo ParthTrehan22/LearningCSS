@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.progressbar{
+    height: 2px;
+    background-color: red;
+    animation-name: animateProgressBar;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+.container{
+    height: 30vh;
+    text-align: center;
+    background-color: black;
+}
+img{
+    padding: 5vh 0px;
+    height: 20vh;
+    animation: rotatingImage 5s linear 2s 1;
+}
+@keyframes rotatingImage {
+    0%{
+        rotate: 0deg;
+    }   
+    50%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate: 360deg;
+    } 
+}
+@keyframes animateProgressBar {
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 60vw;
+    }
+    100%{
+        width: 100vw;
+    }    
+}
